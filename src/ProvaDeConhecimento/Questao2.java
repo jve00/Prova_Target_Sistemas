@@ -7,7 +7,7 @@ public class Questao2 {
 
 		Scanner input = new Scanner(System.in);
 		System.out.print("Informe um número inteiro: ");
-		int num = input.nextInt().toUpperCase();
+		int num = input.nextInt();
 
 		int a = 0, b = 1, c;
 		while (b < num) {
